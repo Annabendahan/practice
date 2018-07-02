@@ -21,10 +21,9 @@
     display: flex;
     align-item: center;
     justify-content: space-between;
-    background-color:white;
     opacity: 0.7;
     padding: 10px 30px;
-    color: black;
+    color: #639FAB;
 }
 
 .main-nav i{
@@ -37,7 +36,7 @@
 
 .main-nav-white i{
   font-size: 7px;
-  color: black;
+  color: #639FAB;
   opacity: 0.5;
   padding-top: 33px;
 }
@@ -66,21 +65,23 @@
   padding: 0px 20px;
     color: white;
     font-size: 15px;
+    font-weight: 600;
     letter-spacing: .43px;
     margin-bottom: -20px;
 }
 
 .main-nav-white p{
   padding: 0px 20px;
-    color: black;
+    color: #639FAB;
     font-size: 15px;
+    font-weight: 600;
     letter-spacing: .43px;
     margin-bottom: -20px;
 }
 
 .elem1:hover {
 transition: all .3s ease;
- padding-top: 25px;
+ margin-top: 25px;
  >p{ 
   display: none;
  }
@@ -90,7 +91,7 @@ transition: all .3s ease;
 
 .elem2:hover {
 transition: all .3s ease;
- padding-top: 25px;
+ margin-top: 25px;
  >p{ 
   display: none;
  }
@@ -100,7 +101,7 @@ transition: all .3s ease;
 
 .elem3:hover {
   transition: all .3s ease;
- padding-top: 25px;
+ margin-top: 25px;
  >p{ 
   display: none;
  }

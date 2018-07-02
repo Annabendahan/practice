@@ -12,3 +12,20 @@ function initUpdateNavbarOnScroll() {
 }
 
 export { initUpdateNavbarOnScroll };
+
+
+
+function initChangePictureOnScroll() {
+  const picture = document.querySelector('.picture-color');
+  if (picture) { 
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= picture.innerHeight) {
+        picture.classList.add('.picture');
+      } else {
+        picture.classList.remove('.picture');
+      }
+    });
+  }
+}
+
+export { initChangePictureOnScroll };
