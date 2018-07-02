@@ -2,6 +2,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def show
+  def chalet
   end
+
+  def histoire
+  end
+
+  def alentours 
+  end
+  
 end

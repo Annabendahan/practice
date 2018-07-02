@@ -4,13 +4,27 @@
 
 .main-nav {
     right: 70px;
-    top: 80px;
+    top: 50px;
     position: fixed;
     z-index: 150;
     background: transparent;
     display: flex;
     align-item: center;
     justify-content: space-between;
+}
+
+.main-nav-white {
+   right: 70px;
+   top: 50px;
+    position: fixed;
+    z-index: 150;
+    display: flex;
+    align-item: center;
+    justify-content: space-between;
+    background-color:white;
+    opacity: 0.7;
+    padding: 10px 30px;
+    color: black;
 }
 
 .main-nav i{
@@ -21,19 +35,44 @@
 }
 
 
+.main-nav-white i{
+  font-size: 7px;
+  color: black;
+  opacity: 0.5;
+  padding-top: 33px;
+}
+
 .main-nav a{
   text-decoration: none;
   padding: 0px 20px;
-    color: #4E8098;
+    color: #C4F5FC;
+    font-weight: 600;
     font-size: 15px;
     letter-spacing: .43px;
     display: none;
 }
 
+.main-nav-white a{
+  text-decoration: none;
+  padding: 0px 20px;
+    color: #C4F5FC;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .43px;
+    display: none;
+}
 
 .main-nav p{
   padding: 0px 20px;
     color: white;
+    font-size: 15px;
+    letter-spacing: .43px;
+    margin-bottom: -20px;
+}
+
+.main-nav-white p{
+  padding: 0px 20px;
+    color: black;
     font-size: 15px;
     letter-spacing: .43px;
     margin-bottom: -20px;
