@@ -48,26 +48,32 @@ li a
 li a:hover  {
       font-weight: 600;
       text-decoration: none;
-      z-index: 120;
+      z-index: 120 !important;
 }
 
 .menu
     { padding-top: 300px; 
-      width:500px;
+      width:700px;
        margin:0px auto 0 auto;
        border-radius:10px;
        overflow:hidden;
        z-index:160 !important;}
 
+.menu i{
+  color: white; 
+  opacity: 0.7;
+  font-size: 10px;
+  padding: 10px;
+}
 
 
 .menu li:first-child:hover ~ .bg {
-  background: #ffca6d;
+  background: url(IMG_2014.JPG);
   z-index: 5;
   
 }
 .menu li:nth-child(2):hover ~ .bg {
-  background: url(IMG_2020.JPG);
+  background: url(IMG_2015.JPG);
   z-index: 5;
 }
 .menu li:nth-child(3):hover ~ .bg {
@@ -79,7 +85,7 @@ li a:hover  {
   z-index: 5;
 }
 .menu li:nth-child(5):hover ~ .bg {
-  background: url(IMG_2018.JPG);
+  background: url(IMG_2019.JPG);
   z-index: 5;
 }
 
