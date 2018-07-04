@@ -11,3 +11,86 @@
   background-position: -10px;
 }
 
+
+
+
+
+* {    margin: 0;
+  padding: 0;}
+
+body   {  background:#e5e5e5;}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+  background: cover;
+}
+
+li
+{  list-style:none;
+  z-index: 100;
+
+   }
+
+li a
+    { font-family: Avenir;
+      font-size:25px;
+      color:white;
+      z-index: 110;}
+      
+
+li a:hover  {
+      font-weight: 600;
+      text-decoration: none;
+      z-index: 120;
+}
+
+.menu
+    { padding-top: 300px; 
+      width:500px;
+       margin:0px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;
+       z-index:160 !important;}
+
+
+
+.menu li:first-child:hover ~ .bg {
+  background: #ffca6d;
+  z-index: 5;
+  
+}
+.menu li:nth-child(2):hover ~ .bg {
+  background: url(IMG_2020.JPG);
+  z-index: 5;
+}
+.menu li:nth-child(3):hover ~ .bg {
+  background: url(IMG_2016.JPG)!important;
+  z-index: 5;
+}
+.menu li:nth-child(4):hover ~ .bg {
+  background: url(IMG_2016.JPG)!important;
+  z-index: 5;
+}
+.menu li:nth-child(5):hover ~ .bg {
+  background: url(IMG_2018.JPG);
+  z-index: 5;
+}
+
+
+
+
+.background{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG_2018.JPG);
+  z-index: -10;
+  height: 100vh;
+}
+
+
+
