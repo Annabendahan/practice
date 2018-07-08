@@ -4,3 +4,5 @@ import { initChangePictureOnScroll } from '../components/navbar';
 initUpdateNavbarOnScroll();
 initChangePictureOnScroll();
 
+ //need to rewrite in prototype
+//no jquery
