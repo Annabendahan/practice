@@ -1,3 +1,151 @@
-
-<div class ="home-banner" style="background-image: url('<%= image_path 'IMG_2019.JPG' %>')">
+<div class="banner" id="Home" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 70%), url('<%= image_path 'bannerr.png' %>');">
 </div>
+
+<br>
+<br>
+
+<div class= "container">
+  <div class="row">
+    <div class="col-xs-12 col-md-4 col-sm-6">
+      <div class="mypic" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 70%), url('<%= image_path 'Anna (2).png' %>');">
+      </div>
+    </div>
+  <br id="CV">
+  <div class="col-xs-12 col-md-6 col-sm-6">
+    <div class="presentation" >
+     <h2 class="title" > A propos de moi. </h2>
+     <p class="text"> Ancienne étudiante à Paris Dauphine en droit et gestion, je me suis reconvertie en
+      développeuse web. Créative et passionnée de design, je
+      cherche un CDI ou des projets free-lance en
+      développement et web design.</p>
+      <br>
+      <%= link_to "TELECHARGER LE CV", download_pdf_path, class: "btn" %>
+       <div class= "contact">
+        <br>
+        <%= link_to '<i class="fab fa-facebook-f"></i>'.html_safe,  'https://www.facebook.com/anna.bendahan.7', class: "icon " %>
+        <%= link_to '<i class="fab fa-instagram"></i>'.html_safe,  'https://www.instagram.com/lebendan/', class: "icon " %>
+        <%= link_to '<i class="fab fa-linkedin-in"></i>'.html_safe,  'https://www.linkedin.com/in/anna-bendahan-55324113a/', class: "icon" %>
+        <%= link_to '<i class="fab fa-github"></i>'.html_safe,  'https://github.com/Annabendahan', class: "icon" %>
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="grey-container">
+  <h2 class= "titleall text-center" id="Services">Services.</h2>
+    <div class="row">
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="fas fa-wrench "></i>
+          <h3 class="stitle "> Back end </h3>
+          <p> Utilisation du langage Ruby on Rails pour l'implémentation de diverses fonctionnalités. </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="far fa-eye"></i>
+          <h3 class="stitle "> Front end </h3>
+          <p> HTML5, CSS3 pour un front end design et épuré et des librairies telles que bootstrap, </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="fas fa-tv"></i>
+          <h3 class="stitle "> Animations </h3>
+          <p> JavaScript et le framework React pour un site dynamique et moderne.  </p>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="fas fa-gem"></i>
+          <h3 class="stitle "> Creativité </h3>
+          <p> Sketch et la suite Adobe pour un design travaillé au pixel près.</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="fas fa-graduation-cap"></i>
+          <h3 class="stitle "> Branding </h3>
+          <p> Design de logos et de marques. </p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="square text-center">
+          <i class="fas fa-hands-helping"></i>
+          <h3 class="stitle "> Reseau d'entraide </h3>
+          <p> Le bootcamp du Wagon offre un large réseau d'entraide entre alumnis pour répondre à toutes les questions.  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<h2 class= "titleall text-center" id="Portfolio">Projets.</h2>
+
+
+<h3 class= "text-center" id="Portfolio"> Digital marketing pour Rentman </h3>
+
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" text-center">
+          <img src='<%= image_path 'bannerrentman.png' %>'  height="280" width="120">
+
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" text-center">
+          <img src='<%= image_path 'Lite.png' %>' alt="Smiley face" height="200" width="350">
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="text-center">
+          <img src='<%= image_path 'liteblog.png' %>' alt="Smiley face" height="200" width="350">
+            </div>
+      </div>
+    </div>
+
+    <h3 class= "text-center" id="Portfolio"> Site easyfork</h3>
+   <div class="row">
+      <div class="col-xs-12 col-md-6 col-sm-6">
+          <img src='<%= image_path 'easyfork1.png' %>'  height="300" width="480">
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-6">
+        <p> Site co-développé au Wagon, permet de réserver et commander à l'avance dans les restos pour ne pas avoir à attendre! Implémentation des sessions utilisateurs, paiement via Stripe, panier de commande Ajax... </p>
+      <%= link_to 'Voir le site',  'https://www.easyfork.xyz', class: "icon " %>
+      </div>
+
+      </div>
+  <h3 class= "text-center" id="Portfolio"> Divers</h3>
+  <div class="row">
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" text-center">
+          <div class="pic" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 70%), url('<%= image_path 'easyfork1.png' %>');">
+          </div>
+
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="text-center">
+          <img src='<%= image_path 'b2clean.png' %>' alt="Smiley face" height="250" width="350">
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" text-center">
+          <div class="pic" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 70%), url('<%= image_path 'burtonimg.png' %>');">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

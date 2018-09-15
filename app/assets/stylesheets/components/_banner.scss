@@ -1,102 +1,89 @@
-
-
-.home-banner{
-  height: 150vh;
-  background-size: cover;
-}
-
-.banner{
-  height: 70vh;
-  background-size: cover;
-  background-position: -10px;
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 
 
 
 
-* {    margin: 0;
-  padding: 0;}
 
-body   {  background:#e5e5e5;}
-
-.bg {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: .25s;
-  pointer-events: none;
-  background: cover;
-}
-
-li
-{  list-style:none;
-  z-index: 100;
-
-   }
-
-li a
-    { font-family: Avenir;
-      font-size:25px;
-      color:white;
-      z-index: 110;}
-      
-
-li a:hover  {
-      font-weight: 600;
-      text-decoration: none;
-      z-index: 120 !important;
-}
-
-.menu
-    { padding-top: 300px; 
-      width:700px;
-       margin:0px auto 0 auto;
-       border-radius:10px;
-       overflow:hidden;
-       z-index:160 !important;}
-
-.menu i{
-  color: white; 
-  opacity: 0.7;
-  font-size: 10px;
-  padding: 10px;
-}
-
-
-.menu li:first-child:hover ~ .bg {
-  background: url(IMG_2014.JPG);
-  z-index: 5;
-  
-}
-.menu li:nth-child(2):hover ~ .bg {
-  background: url(IMG_2015.JPG);
-  z-index: 5;
-}
-.menu li:nth-child(3):hover ~ .bg {
-  background: url(IMG_2016.JPG)!important;
-  z-index: 5;
-}
-.menu li:nth-child(4):hover ~ .bg {
-  background: url(IMG_2016.JPG)!important;
-  z-index: 5;
-}
-.menu li:nth-child(5):hover ~ .bg {
-  background: url(IMG_2019.JPG);
-  z-index: 5;
-}
-
-
-
-
-.background{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG_2018.JPG);
-  z-index: -10;
+.banner {
   height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+margin: -10px;
 }
 
+
+.mypic{
+height: 400px;
+width: 300px;
+background-size: cover;
+flex: 0 0 30%;
+margin-top: 50px;
+margin-right: 30px;
+}
+
+.pic{
+  height: 270px;
+  width: 320px;
+  margin: 20px;
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.titleall{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-top: 70px;
+  font-weight: 900;
+}
+
+
+.presentation {
+ margin-top: 50px;
+  margin-left: 50px;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 21px;
+  color: #474747;
+  font-weight: 200;
+}
+
+.contact i {
+  color: #54A9BF;
+  font-size: 30px;
+  padding: 15px;
+  &:hover{
+    color: #2A6977;
+    font-size: 33px;
+  }
+}
+
+.fas .fa-circle{
+  color: #54A9BF;
+}
+
+
+i {
+  color: #54A9BF;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.fab .fa-facebook-f{
+  color: #54A9BF;
+  font-size: 30px;
+}
 
 
