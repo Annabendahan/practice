@@ -4,11 +4,46 @@ a{
     text-decoration: none;
   }
 }
+.headlines{
+  padding-top: 250px;
+  font-family: Roboto;
+
+}
+
+.tagline{
+color: white;
+font-weight: 900;
+font-size: 70px;
+}
+
+
+.tagline2{
+color: white;
+font-weight: 900;
+font-size: 70px;
+}
+
+.punchline{
+  color: #54A9BF;
+  font-weight: 400;
+}
+.punchline2{
+  color: #54A9BF;
+  font-weight: 400;
+}
+
+.point{
+  color: #54A9BF;
+}
 
 
 
-
-
+h4{
+  color: #2A6977 !important;
+  font-weight: 300 !important;
+  font-family: Roboto !important;
+  font-size: 25px !important;
+}
 
 .banner {
   height: 100vh;
@@ -19,12 +54,10 @@ margin: -10px;
 
 
 .mypic{
-height: 400px;
-width: 300px;
+height: 350px;
 background-size: cover;
 flex: 0 0 30%;
 margin-top: 50px;
-margin-right: 30px;
 }
 
 .pic{

@@ -1,8 +1,7 @@
 .square{
   background: white;
   box-shadow: 3px 3px 8px lightgrey;
-  height: 300px;
-  width: 350px;
+  height: 250px;
   margin: 10px;
   padding: 10px;
 }
@@ -14,10 +13,6 @@
 }
 
 
-.squareg{
-  background: white;
-  height: 300px;
-  width: 350px;
-  margin: 20px;
-  padding: 10px;
+.square i {
+  font-size: 35px;
 }

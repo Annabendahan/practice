@@ -6,3 +6,4 @@ initChangePictureOnScroll();
 
  //need to rewrite in prototype
 //no jquery
+ScrollReveal().reveal('.headline');

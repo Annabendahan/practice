@@ -19,3 +19,13 @@ font-family: Open Sans;
     color: white;
   }
 }
+
+.link{
+  color: #54A9BF;
+  font-weight: 500;
+  font-size: 20px;
+  &:hover{
+    font-size: 22px;
+    text-decoration: none;
+  }
+}
