@@ -46,24 +46,26 @@
 
 <div class="grey-container">
   <h2 class= "titleall text-center" id="Services">Services.</h2>
+  <br>
+  <br>
     <div class="row">
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="fas fa-wrench "></i>
+          <i class="fas fa-wrench i1"></i>
           <h3 class="stitle "> Back end </h3>
           <p> Utilisation du langage Ruby on Rails pour l'implémentation de diverses fonctionnalités. </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="far fa-eye"></i>
+          <i class="far fa-eye i2"></i>
           <h3 class="stitle "> Front end </h3>
           <p> HTML5, CSS3 Bootstrap pour un site agréable et responsif. </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="fas fa-tv"></i>
+          <i class="fas fa-tv i3"></i>
           <h3 class="stitle "> Animations </h3>
           <p> JavaScript et le framework React pour un site dynamique et moderne.  </p>
         </div>
@@ -72,21 +74,21 @@
   <div class="row">
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="fas fa-gem"></i>
+          <i class="fas fa-gem i4"></i>
           <h3 class="stitle "> Webdesign </h3>
-          <p> Design de pubs, mockups. </p>
+          <p> Design de sites, ou de bannières publicitaires, mockups... </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="fas fa-lightbulb"></i>
+          <i class="fas fa-lightbulb i5"></i>
           <h3 class="stitle "> Creativité </h3>
           <p> Sketch et la suite Adobe pour un design travaillé au pixel près.</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
-          <i class="fas fa-hands-helping"></i>
+          <i class="fas fa-hands-helping i6"></i>
           <h3 class="stitle "> Suivi</h3>
           <p> Suivi complet après création du site pour ajout de features, retouches, modifications. </p>
         </div>
@@ -106,7 +108,7 @@
 <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class=" text-center">
+        <div class=" design1 text-center">
           <a href='<%= image_path 'bannerrentman.png' %>' target="new">
             <img src='<%= image_path 'bannerrentman.png' %>'  height="280" width="120">
           </a>
@@ -115,7 +117,7 @@
       <br>
       <br>
       <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class=" text-center fix">
+        <div class="design2 text-center fix">
           <a href='<%= image_path 'sonomag.png' %>' target="new">
             <img src='<%= image_path 'sonomag.png' %>' height="200" width="350">
           </a>
@@ -124,7 +126,7 @@
       <br>
       <br>
       <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class="text-center ">
+        <div class=" design3 text-center ">
           <a href='<%= image_path 'liteblog.png' %>' target="new" >
             <img src='<%= image_path 'liteblog.png' %>' height="200" width="350">
           </a>
@@ -142,14 +144,17 @@
 <br>
    <div class="row">
       <div class="col-xs-12 col-md-6 col-sm-6">
-        <div class="card">
-          <img src='<%= image_path 'easyfork1.png' %>'  height="300" width="480">
+        <div class="card squarew">
+          <img src='<%= image_path 'easyfdemo.png' %>' height="300" >
         </div>
       </div>
         <div class="col-xs-12 col-md-6 col-sm-6">
           <div class="card">
+            <br>
+            <br>
             <p> Site co-développé au Wagon, permet de réserver et commander à l'avance dans les restos pour ne pas avoir à attendre! Implémentation des sessions utilisateurs, paiement via Stripe, panier de commande Ajax... </p>
-            <%= link_to 'Voir le site',  'https://www.easyfork.xyz', class: "link" %>
+            <br>
+            <%= link_to 'Voir le site',  'https://www.easyfork.xyz', class: "btn" %>
           </div>
         </div>
       </div>
