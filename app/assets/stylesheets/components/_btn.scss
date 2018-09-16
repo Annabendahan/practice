@@ -1,24 +1,20 @@
-.btn{
+.mybtn{
 color: white;
 font-weight: 100;
+font-size: 15px;
 background-color: #54A9BF;
-padding: 5px 15px;
+padding: 10px 15px;
 text-decoration: none;
-font-family: Open Sans;
+font-family: Roboto;
+border-radius: 5px;
 &:hover{
   background-color: #2A6977;
-  font-weight: 900;
   color: white;
-
+  text-decoration: none;
 }
 }
 
-.btn a{
-  color: white;
-  &:hover{
-    color: white;
-  }
-}
+
 
 .link{
   color: #54A9BF;
@@ -33,7 +29,7 @@ font-family: Open Sans;
 
 .iconf i{
   color: grey;
-  padding: 15px;
+  padding: 15px 5px;
   font-size: 20px;
   &:hover{
     color: darkgrey;
