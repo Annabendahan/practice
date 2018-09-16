@@ -16,6 +16,7 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= yield %>
+     <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
     <script src="scrollReveal.js" type="text/javascript"></script>
@@ -34,12 +35,12 @@
     ScrollReveal().reveal('.i1', { delay: 400 })
     ScrollReveal().reveal('.i2', { delay: 800 })
     ScrollReveal().reveal('.i3', { delay: 1200 })
-    ScrollReveal().reveal('.i4', { delay: 1600 })
-    ScrollReveal().reveal('.i5', { delay: 2000 })
-    ScrollReveal().reveal('.i6', { delay: 2400 })
-    ScrollReveal().reveal('.design1', { delay: 500 })
-    ScrollReveal().reveal('.design2', { delay: 1000 })
-    ScrollReveal().reveal('.design3', { delay: 1500 })
+    ScrollReveal().reveal('.i4', { delay: 400 })
+    ScrollReveal().reveal('.i5', { delay: 800 })
+    ScrollReveal().reveal('.i6', { delay: 1200 })
+    ScrollReveal().reveal('.mail', { delay: 500 })
+    ScrollReveal().reveal('.phone', { delay: 1000 })
+
   </script>
 
   </body>

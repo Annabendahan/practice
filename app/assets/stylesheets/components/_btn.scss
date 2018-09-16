@@ -29,3 +29,23 @@ font-family: Open Sans;
     text-decoration: none;
   }
 }
+
+
+.iconf i{
+  color: grey;
+  padding: 15px;
+  font-size: 20px;
+  &:hover{
+    color: darkgrey;
+    font-size: 25px;
+  }
+}
+
+
+
+.footerp{
+  font-family: Open sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
