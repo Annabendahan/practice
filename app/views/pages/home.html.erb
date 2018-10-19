@@ -19,11 +19,9 @@
     <div class="col-xs-12 col-md-6 col-sm-6">
       <div class="presentation" >
        <h2 class="title" > A propos de moi. </h2>
-       <p class= "maj"> RUBY WEB DEVELOPER & WEB DESIGNER </p>
+       <p class= "maj"> RUBY/REACT WEB DEVELOPER & WEB DESIGNER </p>
        <p class="text"> Ancienne étudiante à Paris Dauphine en droit et gestion, je me suis reconvertie en
-        développeuse web. Créative et passionnée de design, je
-        cherche un CDI ou des projets free-lance en
-        développement et web design.</p>
+        développeuse web. Passionnée aussi bien de Back-end que de Front-end, je cherche un poste où je peux continuer à apprendre et progresser tout en apportant mes connaissances. </p>
         <br>
         <%= link_to "TELECHARGER LE CV", download_pdf_path, class: "mybtn" %>
          <div class= "contact">
@@ -48,22 +46,22 @@
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="fas fa-wrench i1"></i>
-          <h3 class="stitle "> Back end </h3>
-          <p> Utilisation du langage Ruby on Rails pour l'implémentation de diverses fonctionnalités. </p>
+          <h3 class="stitle "> Backend </h3>
+          <p> Backend en <strong> Ruby on Rails (MVC) </strong>, BDD relationnelles <strong> SQL </strong>, yarn, webpack </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="far fa-eye i2"></i>
-          <h3 class="stitle "> Front end </h3>
-          <p> HTML5, CSS3 Bootstrap pour un site agréable et responsif. </p>
+          <h3 class="stitle "> Frontend </h3>
+          <p> <strong> HTML5, SCSS, Bootstrap </strong> pour un site agréable et responsif. </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="fas fa-tv i3"></i>
-          <h3 class="stitle "> Animations </h3>
-          <p> JavaScript et le framework React pour un site dynamique et moderne.  </p>
+          <h3 class="stitle "> Site dynamique </h3>
+          <p> JavaScript et le framework <strong> React.js </strong> pour un site dynamique et moderne.  </p>
         </div>
       </div>
     </div>
@@ -78,15 +76,15 @@
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="fas fa-lightbulb i5"></i>
-          <h3 class="stitle "> Creativité </h3>
+          <h3 class="stitle "> Créativité </h3>
           <p> Sketch et la suite Adobe pour un design travaillé au pixel près.</p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="fas fa-hands-helping i6"></i>
-          <h3 class="stitle "> Suivi</h3>
-          <p> Suivi complet après création du site pour ajout de features, retouches, modifications. </p>
+          <h3 class="stitle "> Production </h3>
+          <p> Déploiement des sites sur <strong> Heroku </strong>  </p>
         </div>
       </div>
     </div>
@@ -96,46 +94,8 @@
 
 <h2 class= "titleall text-center" id="Portfolio">Projets.</h2>
 
-
-<h4 class= "text-center subtitle" id="Portfolio"> Digital marketing pour Rentman </h4>
-<br>
-<br>
-<br>
 <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class=" design1 text-center">
-          <a href='<%= image_path 'bannerrentman.png' %>' target="new">
-            <img src='<%= image_path 'bannerrentman.png' %>'  height="280" width="120">
-          </a>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class="design2 text-center fix">
-          <a href='<%= image_path 'sonomag.png' %>' target="new">
-            <img src='<%= image_path 'sonomag.png' %>' height="200" width="350">
-          </a>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="col-xs-12 col-md-4 col-sm-6">
-        <div class=" design3 text-center ">
-          <a href='<%= image_path 'liteblog.png' %>' target="new" >
-            <img src='<%= image_path 'liteblog.png' %>' height="200" width="350">
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div class="grey-container">
-  <br>
-  <br>
-  <div class="container">
-    <h4 class= "text-center subtitle" id="Portfolio" color="#54A9BF"> Site easyfork</4>
+    <h4 class= "text-center subtitle" id="Portfolio" color="#54A9BF"> Site Easyfork </4>
 <br>
 <br>
    <div class="row">
@@ -146,17 +106,84 @@
           <div class="squarew">
             <br>
             <br>
-            <p> Site co-développé au Wagon, permet de réserver et commander à l'avance dans les restos pour ne pas avoir à attendre! Implémentation des sessions utilisateurs, paiement via Stripe, panier de commande Ajax... </p>
+            <p> Site co-développé au Wagon, permet de réserver et commander à l'avance dans les restos pour ne pas avoir à attendre! Framework <strong> Ruby On Rails . </strong> <strong> Authentification et authorization (Pundit) </strong>, paiement via <strong> Stripe </strong>, panier de commande Ajax, <strong> Google maps API </strong>, <strong> Cloudinary </strong>... </p>
             <br>
             <%= link_to 'VOIR LE SITE',  'https://www.easyfork.xyz', class: "mybtn" %>
+            <%= link_to '<i class="fab fa-github"></i>'.html_safe,  'https://github.com/xeviros/easyfork', class: "icon" %>
           </div>
         </div>
       </div>
     </div>
-  </div>
-<br>
-<br>
 
+
+
+
+    <div class="container">
+    <h4 class= "text-center subtitle" id="Portfolio" color="#54A9BF"> The Burger-App </4>
+<br>
+<br>
+   <div class="row">
+      <div class="col-xs-12 col-md-6 col-sm-6">
+          <img src='<%= image_path 'burgerapp.png' %>' class= "text-center" width= "300">
+      </div>
+        <div class="col-xs-12 col-md-6 col-sm-6">
+          <div class="squarew">
+            <br>
+            <br>
+            <p> Single-page app pour construire son burger. Faite en <strong> React.js </strong>, management dynamique du <strong> "State" </strong>.
+            <br>
+            <br>
+            <br>
+            <%= link_to 'VOIR LE SITE',  'https://makeyourburger.herokuapp.com', class: "mybtn" %>
+            <%= link_to '<i class="fab fa-github"></i>'.html_safe,  'https://github.com/Annabendahan/burgerapp', class: "icon" %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<h4 class= "text-center subtitle" id="Portfolio"> Digital marketing pour Rentman </h4>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" photo design1 text-center">
+          <a href='<%= image_path 'bannerrentman.png' %>' target="new" >
+            <img src='<%= image_path 'bannerrentman.png' %>'  height="280" width="120">
+          </a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class="photo design2 text-center fix">
+          <a href='<%= image_path 'sonomag.png' %>' target="new">
+            <img src='<%= image_path 'sonomag.png' %>' height="200" width="350">
+          </a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="col-xs-12 col-md-4 col-sm-6">
+        <div class=" photo design3 text-center ">
+          <a href='<%= image_path 'liteblog.png' %>' target="new" >
+            <img src='<%= image_path 'liteblog.png' %>' height="200" width="350">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+
+
+<br>
+<br>
+<div class="grey-container">
 <h2 class= "titleall text-center" id="Contact">Contact.</h2>
 <div class="row text-center">
       <div class="col-xs-12 col-md-6 col-sm-6">
@@ -171,6 +198,7 @@
           <br>
           <p>  0659133919</p>
       </div>
+    </div>
 
 
 
