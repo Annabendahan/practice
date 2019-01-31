@@ -1,0 +1,64 @@
+.form-container{
+  width: 70%;
+  margin:auto;
+  border: solid 1px grey;
+  padding: 30px 70px;
+  margin-top: 20px;
+}
+
+.form-row p {
+  font-family: raleway;
+  font-size: 12px;
+}
+
+input.spe-form{
+
+border: none;
+box-shadow: none;
+box-sizing: none;
+border-color: none;
+padding-bottom: 30px;
+
+
+}
+
+input.form-control:focus {
+  border-color: white;
+  box-shadow: none;
+}
+
+
+label{
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: raleway;
+  color: #666666;
+
+}
+
+
+.form-title{
+color: red;
+font-family: raleway;
+
+}
+
+.form-subtitle{
+font-family: raleway;
+font-size: 20px;
+font-weight: 500;
+color: #303030;
+margin-left: 10px;
+}
+
+
+.btn-creer{
+  background: red;
+  border-radius: 10em;
+  color:white;
+  font-weight: 500px;
+  font-family: raleway;
+  padding: 10px 20px;
+  margin: 20px auto;
+
+}

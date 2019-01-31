@@ -21,7 +21,7 @@
        <h2 class="title" > A propos de moi. </h2>
        <p class= "maj"> RUBY/REACT WEB DEVELOPER & WEB DESIGNER </p>
        <p class="text"> Ancienne étudiante à Paris Dauphine en droit et gestion, je me suis reconvertie en
-        développeuse web. Passionnée aussi bien de Back-end que de Front-end, je peux designer et développer vos sites vitrines ou e-commerce. </p>
+        développeuse web. Spécialisée en <strong> Ruby on Rails (MVC, APIs)  </strong> et en <strong> React.js </strong>, n'hésitez pas à me contacter pour des projets.  </p>
         <br>
         <%= link_to "TELECHARGER LE CV", download_pdf_path, class: "mybtn" %>
          <div class= "contact">
@@ -47,21 +47,21 @@
         <div class="square text-center">
           <i class="fas fa-wrench i1"></i>
           <h3 class="stitle "> Backend </h3>
-          <p> Backend en <strong> Ruby on Rails (MVC) </strong>, BDD relationnelles <strong> SQL </strong>, yarn, webpack </p>
+          <p> Backend en <strong> Ruby on Rails (MVC ou API)  </strong>, BDD relationnelles <strong> postgresSQL </strong> </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="far fa-eye i2"></i>
           <h3 class="stitle "> Frontend </h3>
-          <p> <strong> HTML5, SCSS, Bootstrap </strong> pour un site agréable et responsif. </p>
+          <p> Framework  <strong>  React.js, Javascript,  HTML5, SCSS, Bootstrap </strong> et design avec <strong>  Sketch </strong> </p>
         </div>
       </div>
       <div class="col-xs-12 col-md-4 col-sm-6">
         <div class="square text-center">
           <i class="fas fa-tv i3"></i>
-          <h3 class="stitle "> Site dynamique </h3>
-          <p> JavaScript et le framework <strong> React.js </strong> pour un site dynamique et moderne.  </p>
+          <h3 class="stitle "> Site responsif </h3>
+          <p> Site adaptable à tous devices.  </p>
         </div>
       </div>
     </div>
@@ -89,12 +89,14 @@
       </div>
     </div>
   </div>
-</div>
 
 
+<div class="grey-container">
+
+  <hr>
 <h2 class= "titleall text-center" id="Portfolio">Projets.</h2>
 
-<div class="container">
+
     <h4 class= "text-center subtitle" id="Portfolio" color="#54A9BF"> Site Easyfork </4>
 <br>
 <br>
@@ -113,32 +115,51 @@
           </div>
         </div>
       </div>
-    </div>
 
 
-
-
-    <div class="container">
-    <h4 class= "text-center subtitle" id="Portfolio" color="#54A9BF"> The Burger-App </4>
-<br>
-<br>
-   <div class="row">
-      <div class="col-xs-12 col-md-6 col-sm-6">
-          <img src='<%= image_path 'burgerapp.png' %>' class= "text-center" width= "300">
-      </div>
-        <div class="col-xs-12 col-md-6 col-sm-6">
+<hr>
+  <h4 class= "text-center subtitle" id="Portfolio"> Todolist </h4>
+    <div class="row">
+       <div class="col-xs-12 col-md-6 col-sm-12">
           <div class="squarew">
             <br>
             <br>
-            <p> Single-page app pour construire son burger. Faite en <strong> React.js </strong>, management dynamique du <strong> "State", Routing </strong>.
+            <p>  <strong> API Rails </strong> et front-end en <strong> React.js </strong>. Utilisation d' <stong> Axios </stong> pour les requêtes à l'API.  </p>
+            <br>
+            <%= link_to 'VOIR LE SITE',  'https://ma-todolist.herokuapp.com', class: "mybtn" %>
+            <%= link_to '<i class="fab fa-github"></i>'.html_safe,  'https://github.com/Annabendahan/todolist', class: "icon" %>
+          </div>
+        </div>
+      <div class="col-xs-12 col-md-6 col-sm-12">
+            <div class="mypic2", style= "background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url('<%= image_path 'TodolistAppGif.gif' %>')";>
+          </div>
+      </div>
+
+      </div>
+
+
+
+
+      <hr>
+  <h4 class= "text-center subtitle" id="Portfolio"> The Burger App </h4>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-sm-12">
+            <div class="mypic2", style= "background-image: linear-gradient(-225deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%), url('<%= image_path 'BurgerAppGif.gif' %>')";>
+          </div>
+      </div>
+        <div class="col-xs-12 col-md-6 col-sm-12">
+          <div class="squarew">
             <br>
             <br>
+            <p> Viens créer ton burger sur mesure ! Single-page app pour construire son burger. Faite en <strong> React.js </strong>, management dynamique du <strong> "State", Routing, REDUX </strong>.
             <br>
             <%= link_to 'VOIR LE SITE',  'https://makeyourburger.herokuapp.com', class: "mybtn" %>
             <%= link_to '<i class="fab fa-github"></i>'.html_safe,  'https://github.com/Annabendahan/burgerapp', class: "icon" %>
           </div>
         </div>
       </div>
+
+
     </div>
 
 
@@ -205,5 +226,10 @@
     </div>
   </div>
 </div>
+
+
+
+<br>
+<br>
 
 

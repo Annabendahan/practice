@@ -45,6 +45,7 @@ h4{
   font-family: Roboto !important;
   font-size: 22px !important;
   opacity: 0.8 !important;
+  margin-top: 20px !important;
 }
 
 .banner {
@@ -55,11 +56,24 @@ h4{
 }
 
 
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+}
+
 .mypic{
-height: 350px;
-background-size: cover;
+  height: 350px;
+  background-size: cover;
 flex: 0 0 30%;
 margin-top: 50px;
+}
+
+.mypic2{
+  flex: 0 0 50%;
+height: 500px;
+background-size: cover;
+margin-top: 50px;
+box-shadow: 2px 2px 15px rgba(231, 227, 227, 0.25);
 }
 
 .pic{
